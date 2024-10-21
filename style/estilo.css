@@ -71,3 +71,6 @@ animation-name: appear;
 animation-duration: 1s;
 animation-iteration-count: 1;
 }
+.tooltip {
+  z-index: 9999; /* Asegura que esté encima de otros elementos */
+}
