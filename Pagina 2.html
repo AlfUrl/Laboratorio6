@@ -1,41 +1,140 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laboratorio 6</title>
-    <link href="lib/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="style/estilo.css" rel="Stylesheet" />
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Página</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 3</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/invader.svg"
+            onclick="location.href = 'Index.html';"
+            width="50px"
+            class="img-fluid"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 1.html">Inicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link actual" href="Pagina 2.html"
+                >Primer consola</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 3.html">Crisis de 1983</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <!-- Main content -->
-    <div class="container text-center my-5">
-        <h1 class="display-4">Bienvenidos a el Laboratorio 6</h1>
-        <img src="https://via.placeholder.com/800x400" class="img-fluid my-4" alt="Imagen de ejemplo">
+    <div class="container my-5">
+      <h1 class="display-flex text-center text-uppercase mb-4 fw-bolder">
+        Primer Consola de la historia
+      </h1>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Magnavox-Odyssey-Console-Set.png/1024px-Magnavox-Odyssey-Console-Set.png"
+            class="img-fluid rounded mx-auto d-block"
+            alt="OXO"
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8">
+          <p class="fs-3">
+            Magnavox Odyssey es la primera videoconsola de la historia.
+            Desarrollada por Ralph Baer (apodado «el padre de los videojuegos»),
+            fue comercializada por la filial de Philips en Estados Unidos y
+            lanzada en las tiendas estadounidenses en septiembre de 1972,
+            convirtiéndose en un éxito de ventas en muy poco tiempo. Fue
+            descontinuada tres años más tarde, a mediados de 1975.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <img
+            src="https://retromaquinitas.com/wp-content/uploads/2019/07/DSC01760-e1562744966468-1024x603.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="Pong"
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="fs-3">
+            Con la tecnología de mediados de los 60, la Odyssey no se parece en
+            nada a los sistemas modernos. No tiene ni microprocesador ni
+            memoria. Es un híbrido entre circuitos analógicos y digitales. Si
+            abrimos la consola nos damos cuenta que estamos más cerca de una
+            clase de electrónica que de un sistema industrial. Resistencias y
+            condensadores lo copan todo, excepto los únicos semiconductores: 40
+            diodos y 40 transistores.
+            <br />
+            <br />
+            A la práctica, la Odyssey tiene todo lo requerido para dibujar una
+            pelota y una o dos palas representando los jugadores. Los juegos son
+            versiones distintas de lo que se hace con ellas, desde jugar al
+            Ping-Pong hasta seguir un circuito o señalar los Estados de los
+            EEUU.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <img
+            src="https://retromaquinitas.com/wp-content/uploads/2013/03/OdysseyCart.JPG"
+            class="img-fluid rounded mx-auto d-block"
+            alt="Pong"
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="fs-3">
+            La Mangavox originalmente contaba con una ditribución intencionalmente reducida, a pesar de esto Magnavox terminó vendiendo unas 130.000 consolas en el primer año de ventas. Quién sabe
+            cuántas se habrían vendido si la distribución hubiese sido más
+            amplia. Lo curioso es que la “ayuda” terminase viniendo del
+            Gobierno, que les demandó por restricción del comercio y se vieron
+            obligados a distribuirlo en todas las tiendas dos años más tarde.
+          </p>
+        </div>
+      </div>
     </div>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

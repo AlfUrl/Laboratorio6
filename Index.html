@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio 6</title>
-    <link href="lib/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio 6: Historia de los Videojuegos</title>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="style/estilo.css" rel="Stylesheet">
+  </head>
+  <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Página</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="Pagina 1.html">Pagina 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Pagina 2.html">Pagina 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Pagina 3.html">Pagina 3</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/invader.svg"
+            onclick="location.href = 'Index.html';"
+            width="50px"
+            class="img-fluid"
+            alt="Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 1.html">Inicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 2.html"
+                >Primer consola</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 3.html">Crisis de 1983</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <!-- Main content -->
     <div class="container text-center my-5">
-        <h1 class="display-4">Bienvenidos a el Laboratorio 6</h1>
-        <img src="https://via.placeholder.com/800x400" class="img-fluid my-4" alt="Imagen de ejemplo">
+      <h1 class="fw-bolder">
+        Bienvenidos al Laboratorio 6 <br />
+        <br />
+        La Historia Temprana de los Videojuegos
+      </h1>
+      <img
+        src="https://leotagoras.org/wp-content/uploads/2019/03/tennis-for-two-1024x576.jpg"
+        class="img-fluid my-3"
+        alt="retro"
+      />
+      <p class="fs-3">
+        Aqui observaremos los humildes inicios de los videjuegos antes de su expansion en gran escala y de su fama actual.
+      </p>
     </div>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

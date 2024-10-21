@@ -1,41 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laboratorio 6</title>
-    <link href="lib/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="style/estilo.css" rel="Stylesheet">
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Página</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 3</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/invader.svg"
+            onclick="location.href = 'Index.html';"
+            width="50px"
+            class="img-fluid"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 1.html">Inicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 2.html"
+                >Primer consola</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 3.html">Crisis de 1983</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <!-- Main content -->
-    <div class="container text-center my-5">
-        <h1 class="display-4">Bienvenidos a el Laboratorio 6</h1>
-        <img src="https://via.placeholder.com/800x400" class="img-fluid my-4" alt="Imagen de ejemplo">
+    <div class="container my-5">
+      <h1 class="display-4 text-center text-uppercase mb-4 fw-bolder">
+        Inicios de los Videojuegos
+      </h1>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <img
+            src="https://www.fib.upc.edu/retro-informatica/historia/videojocs/mainColumnParagraphs/0/image/oxo.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="OXO"
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8">
+          <p class="text-justify fs-3">
+            Durante bastante tiempo ha sido complicado señalar cual fue el
+            primer videojuego, principalmente debido a las múltiples
+            definiciones de este que se han ido estableciendo, pero se puede
+            considerar como primer videojuego el Nought and crosses, también
+            llamado OXO, desarrollado por Alexander S.Douglas en 1952. El juego
+            era una versión computerizada del tres en raya que se ejecutaba
+            sobre la EDSAC y permitía enfrentar a un jugador humano contra la
+            máquina.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <img
+            src="https://www.fib.upc.edu/retro-informatica/historia/videojocs/mainColumnParagraphs/00/image/pong.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="Pong"
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="text-justify fs-3">
+            En 1958 William Higginbotham creó, sirviéndose de un programa para
+            el cálculo de trayectorias y un osciloscopio, Tennis for Two (tenis
+            para dos): un simulador de tenis de mesa para entretenimiento de los
+            visitantes de la exposición Brookhaven National Laboratory.<br /><br />
+            Este videojuego fue el primero en permitir el juego entre dos
+            jugadores humanos. Cuatro años más tarde, Steve Russell, un
+            estudiante del Instituto de Tecnología de Massachussets, dedicó seis
+            meses a crear un juego para computadora usando gráficos vectoriales:
+            Spacewar.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <img
+            src="https://www.fib.upc.edu/retro-informatica/historia/videojocs/mainColumnParagraphs/01/image/ralphbaer-brownbox.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="Pong"
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="text-justify fs-3">
+            En 1966 Ralph Baer empezó a desarrollar junto a Albert Maricon y Ted
+            Dabney, un proyecto de videojuego llamado Fox and Hounds dando
+            inicio al videojuego doméstico. Este proyecto evolucionaría hasta
+            convertirse en la Magnavox Odyssey, el primer sistema doméstico de
+            videojuegos lanzado en 1972 que se conectaba a la televisión y que
+            permitía jugar a varios juegos pregrabados.
+          </p>
+        </div>
+      </div>
     </div>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
