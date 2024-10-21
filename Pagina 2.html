@@ -39,9 +39,7 @@
               <a class="nav-link" href="Pagina 1.html">Inicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link actual" href="Pagina 2.html"
-                >Primer consola</a
-              >
+              <a class="nav-link actual" href="Pagina 2.html">Primer consola</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Pagina 3.html">Crisis de 1983</a>
@@ -60,7 +58,7 @@
         <div class="col-md-8">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Magnavox-Odyssey-Console-Set.png/1024px-Magnavox-Odyssey-Console-Set.png"
-            class="img-fluid rounded mx-auto d-block"
+            class="img-fluid rounded mx-auto d-block appear"
             alt="OXO"
           />
         </div>
@@ -83,8 +81,11 @@
         <div class="col-md-8">
           <img
             src="https://retromaquinitas.com/wp-content/uploads/2019/07/DSC01760-e1562744966468-1024x603.jpg"
-            class="img-fluid rounded mx-auto d-block"
+            class="img-fluid rounded mx-auto d-block appear"
             alt="Pong"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="La consola, con sus dos controles"
           />
         </div>
       </div>
@@ -116,8 +117,11 @@
         <div class="col-md-8">
           <img
             src="https://retromaquinitas.com/wp-content/uploads/2013/03/OdysseyCart.JPG"
-            class="img-fluid rounded mx-auto d-block"
+            class="img-fluid rounded mx-auto d-block appear"
             alt="Pong"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Un cartucho de la Odysee, estos no contienen datos, solo sirven como un dipswitch para indicar qué juego cargar"
           />
         </div>
       </div>
@@ -125,16 +129,26 @@
       <div class="row justify-content-center">
         <div class="col-md-8">
           <p class="fs-3">
-            La Mangavox originalmente contaba con una ditribución intencionalmente reducida, a pesar de esto Magnavox terminó vendiendo unas 130.000 consolas en el primer año de ventas. Quién sabe
-            cuántas se habrían vendido si la distribución hubiese sido más
+            La Mangavox originalmente contaba con una ditribución
+            intencionalmente reducida, a pesar de esto Magnavox terminó
+            vendiendo unas 130.000 consolas en el primer año de ventas. Quién
+            sabe cuántas se habrían vendido si la distribución hubiese sido más
             amplia. Lo curioso es que la “ayuda” terminase viniendo del
             Gobierno, que les demandó por restricción del comercio y se vieron
             obligados a distribuirlo en todas las tiendas dos años más tarde.
           </p>
         </div>
       </div>
+      <div
+        class="row justify-content-center alert alert-primary col-md-12 mb-4 fs-3"
+        role="alert"
+      >
+        A pesar de contar con "cartuchos" se le atribuye la distinción de ser la
+        primera consola en usar esta tecnologia a la Fairchild Channel F.
+      </div>
     </div>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="js/tooltip.js"></script>
   </body>
 </html>

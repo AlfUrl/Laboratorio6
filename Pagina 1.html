@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laboratorio 6</title>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="lib/bootstrap.min.css" rel="stylesheet" />
-    <link href="style/estilo.css" rel="Stylesheet">
+    <link href="style/estilo.css" rel="Stylesheet" />
   </head>
   <body>
     <!-- Navbar -->
@@ -36,9 +39,7 @@
               <a class="nav-link actual" href="Pagina 1.html">Inicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Pagina 2.html"
-                >Primer consola</a
-              >
+              <a class="nav-link" href="Pagina 2.html">Primer consola</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Pagina 3.html">Crisis de 1983</a>
@@ -57,7 +58,7 @@
         <div class="col-md-8">
           <img
             src="https://www.fib.upc.edu/retro-informatica/historia/videojocs/mainColumnParagraphs/0/image/oxo.jpg"
-            class="img-fluid rounded mx-auto d-block"
+            class="img-fluid rounded mx-auto d-block appear"
             alt="OXO"
           />
         </div>
@@ -82,8 +83,11 @@
         <div class="col-md-8">
           <img
             src="https://www.fib.upc.edu/retro-informatica/historia/videojocs/mainColumnParagraphs/00/image/pong.jpg"
-            class="img-fluid rounded mx-auto d-block"
+            class="img-fluid rounded mx-auto d-block appear"
             alt="Pong"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="El osciloscopio mostrando el juego"
           />
         </div>
       </div>
@@ -110,7 +114,7 @@
         <div class="col-md-8">
           <img
             src="https://www.fib.upc.edu/retro-informatica/historia/videojocs/mainColumnParagraphs/01/image/ralphbaer-brownbox.jpg"
-            class="img-fluid rounded mx-auto d-block"
+            class="img-fluid rounded mx-auto d-block appear"
             alt="Pong"
           />
         </div>
@@ -128,8 +132,16 @@
           </p>
         </div>
       </div>
+      <div
+        class="row justify-content-center alert alert-primary col-md-12 mb-4 fs-3"
+        role="alert"
+      >
+        Los videojuegos apenas empezaban, pero ya tenian las bases de lo que se
+        queria lograr a futuro.
+      </div>
     </div>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="js/tooltip.js"></script>
   </body>
 </html>
